@@ -1,0 +1,20 @@
+1: Speech to text input
+    Speech to text engine such as OpenAI Whisper or Vosk
+    Feeds the text into an AI
+
+2: AI - Text to decision 
+    Local AI model (Ollama)
+    AI produces a text output
+
+3: Command Engine (translates AI output into real actions)
+    Open apps
+    Control music
+    Search the web
+
+4: Text to Speech
+    Any verbal output from the AI is turned into a speech output
+
+5: System Integration (lets GabbO control Windows)
+    OS/subprocess - open apps
+    pyautogui - control mouse % keyboard
+    webbrowser - open websites 
